@@ -1,4 +1,3 @@
-This is a suggested `README.md` file for your **HRMS for Omo Bank** project. It is structured to provide a clear overview for anyone cloning or using your repository.
 
 ---
 

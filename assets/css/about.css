@@ -1,0 +1,116 @@
+/*
+ Groovin Bootstrap theme by BootstrapTaste.com
+ Theme URI: http://bootstraptaste.com/groovin-free-bootstrap-theme/
+ Author: BootstrapTaste
+ Author URI: http://bootstraptaste.com
+ */
+ 
+
+/* ==== Google font ==== */
+@import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic');
+/* === fontawesome === */
+@import url('font-awesome.css');
+/* === custom icon === */
+@import url('custom-fonts.css');
+/* ==== overwrite bootstrap standard ==== */
+
+
+/* =======================================
+1. Basic & general
+======================================== */
+
+/* =======================================
+3. Section: About
+======================================== */
+.team-box {
+	background: #f5f5f5;
+	padding-bottom: 20px;
+}
+
+.roles {
+	padding-top: 10px;
+	text-align:center;
+}
+
+ul.social-profile {
+	list-style:none;
+	margin-left:0;
+	padding: 0;
+}
+
+ul.social-profile li {
+	display:inline;
+	margin: 0 5px;
+	padding: 0;
+}
+
+ul.social-profile li a:hover {
+	text-decoration:none;
+}
+
+
+/* =======================================
+3. Section: Services
+======================================== */
+ 
+/* fontawesome icons */
+[class^="icon-"].active,
+[class*=" icon-"].active {
+    background-color: #528EB5;
+}
+
+.validation {
+  color: #5C9F24;
+}
+
+ul.nav li.current {
+  color: #5C9F24;
+}
+
+.navbar .nav > li > a:hover,
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:active,
+.navbar .nav > li.active > a {
+    color: #5C9F24 !important;
+}
+
+.sy-pager li.sy-active a {
+  background-color: #5C9F24;
+}
+
+.navbar .nav > li > a:hover {
+  color: #5C9F24;
+}
+
+input:focus {
+	border: 1px solid #5C9F24;
+	border-width:1px;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: #5C9F24;
+}
+
+
+
+a {
+  color: #528EB5;
+}
+
+a:hover {
+	color: #33782D;
+}
